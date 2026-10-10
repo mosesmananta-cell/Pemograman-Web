@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-ink text-white">
       <Image
-        src="/sekolah.jpg"
+        src="/sekolah.JPG"
         alt={`Gedung ${sekolah.nama}`}
         fill
         priority
