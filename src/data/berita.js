@@ -1,6 +1,3 @@
-// Berita disesuaikan dengan foto dan kegiatan nyata SMKN 40 Jakarta.
-// GANTI tanggal sesuai tanggal kegiatan sebenarnya.
-// Urutan di bawah = urutan tampil. 3 berita paling atas muncul di halaman Home.
 export const daftarBerita = [
   {
     id: "hut-pgri-di-sekolah",
