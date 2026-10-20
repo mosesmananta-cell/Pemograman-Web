@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f2a3d;
+  --color-ink-soft: #1c3d56;
+  --color-paper: #f5f6f3;
+  --color-signal: #f2b705;
+  --color-steel: #56646e;
+  --color-line: #d8dedb;
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+/* Garis kuning-biru ala rambu K3 bengkel */
+.stripe {
+  height: 10px;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--color-signal) 0 12px,
+    var(--color-ink) 12px 24px
+  );
+}
