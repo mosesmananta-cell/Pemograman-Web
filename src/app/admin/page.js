@@ -100,7 +100,7 @@ export default function AdminPage() {
 					<section className="border-l-4 border-signal bg-[#e7eeea] p-5 sm:p-6">
 						<p className="text-xs font-bold uppercase tracking-[0.14em] text-[#52736d]">Catatan</p>
 						<p className="mt-2 text-sm leading-6 text-ink">
-							Dashboard ini menampilkan data lokal website. Perubahan konten dan pengelolaan akun belum tersedia.
+							Gunakan menu navigasi di sebelah kiri untuk mengelola berita sekolah (tambah, edit, hapus), melihat statistik konten, serta memantau profil SMK Negeri 40 Jakarta.
 						</p>
 					</section>
 				</aside>
